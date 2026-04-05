@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Business Card</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            width: 350px;
+            margin: 100px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .info {
+            margin-top: 10px;
+            color: #555;
+            font-size: 14px;
+        }
+
+        .email {
+            margin-top: 15px;
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="name">Tamatta Devraj</div>
+    
+    <div class="info">
+        Student ID: 2026300027
+    </div>
+
+    <div class="email">
+        devraj06@stu.ac.kr
+    </div>
+
+    <div class="footer">
+        Student | Web Development Learner
+    </div>
+</div>
+
+</body>
+</html>

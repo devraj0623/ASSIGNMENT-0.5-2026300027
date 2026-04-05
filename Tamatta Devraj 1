@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Business Card</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .card {
+            width: 320px;
+            padding: 25px;
+            border-radius: 15px;
+            background: #ffffff;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+        }
+
+        .avatar {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 15px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .name {
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .role {
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 15px;
+        }
+
+        .info {
+            font-size: 14px;
+            color: #555;
+            margin: 8px 0;
+        }
+
+        .email {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #fff;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            padding: 10px;
+            border-radius: 8px;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        .email:hover {
+            opacity: 0.85;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="avatar">TD</div>
+
+    <div class="name">Tamatta Devraj</div>
+    <div class="role">Student | Web Developer</div>
+
+    <div class="info">Student ID: 2026300027</div>
+
+    <a class="email" href="mailto:devraj06@stu.ac.kr">
+        devraj06@stu.ac.kr
+    </a>
+
+</div>
+
+</body>
+</html>
